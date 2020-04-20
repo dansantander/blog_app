@@ -1,0 +1,4 @@
+<h1><%= @tag.name %></h1>
+
+<%= link_to "delete", tag_path(@tag), method: :delete, data: {confirm: "Really delete the tag?"} %>
+<%= link_to "<< Back to Article", article_path %>
