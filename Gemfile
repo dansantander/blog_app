@@ -29,6 +29,7 @@ gem 'jbuilder', '~> 2.5'
 
 gem "paperclip"
 
+gem 'rubocop'
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
